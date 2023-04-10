@@ -1,0 +1,28 @@
+.pagination-wrapper {
+  text-align: center;
+  padding-bottom: 3.5rem;
+  padding-top: 3.5rem;
+  button {
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: $blue-268;
+      color: $white;
+    }
+    &:disabled {
+      background-color: $blue-268;
+      color: $white;
+      opacity: 1;
+      &:hover,
+      &:active,
+      &:focus {
+        background-color: $blue-268;
+        color: $white;
+      }
+    }
+  }
+  h5 {
+    display: inline-block;
+    margin: 0 2rem;
+  }
+}

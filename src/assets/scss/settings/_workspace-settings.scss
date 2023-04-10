@@ -1,0 +1,36 @@
+.workspace-settings {
+    padding: 2rem 0rem;
+	h4 {
+		margin-bottom: 2rem
+	}
+    ul[role="tablist"] {
+		li {
+			a {
+				@include font(
+					$primary-text,
+					"Inter-Regular",
+					1.6rem,
+					400,
+					16px
+				);
+				border-radius: 6px;
+				&:focus, &:focus-visible {
+					outline: none;
+				}
+			}
+			&.active {
+				a {
+					@include font(
+						$primary-text,
+						"Inter-Regular",
+						1.6rem,
+						400,
+						16px
+					);
+					background-color: #0000000a !important;
+					// padding: .8rem;
+				}
+			}
+		}
+	}
+}

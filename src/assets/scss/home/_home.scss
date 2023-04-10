@@ -1,0 +1,84 @@
+.landing-section{
+  .landing-page-bg{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    min-height: calc(100vh - 9rem);
+  }
+  position: relative;
+  .landing-section-wrapper{
+    // display: flex;
+    // justify-content: space-evenly;
+    // align-items: center;
+    // position: absolute;
+    // left: 0;
+    // right: 0;
+    // top: 0;
+    // bottom: 0;
+    padding-top: 8.4rem;
+    .left{
+      width: 44.5rem;
+      background-color: $white;
+      border-radius: 1rem;
+      padding: 3.6rem 4rem 5rem;
+      h3{
+        padding-bottom: 4.8rem;
+      }
+      .primary-btn{
+        width: 100%;
+      }
+    }
+    .right{
+      h1{
+        padding: 2rem 0 1.6rem;
+      }
+      h1,h2{
+        letter-spacing: -0.2px;
+      }
+    }
+  }
+}
+
+@media (max-width: $mobile-breakpoint) {
+  .landing-section{
+    .landing-page-bg{
+      position: relative;
+      width: 100%;
+      min-height: auto;
+    }
+    .mobile-hero-text{
+      position: absolute;
+      top: 3rem;
+      left: 3rem;
+      right: 3rem;
+      h1{
+        padding-bottom: 0.8rem;
+      }
+      h2{
+        width: 18rem;
+      }
+      h1,
+      h2{
+        letter-spacing: -0.2px;
+      }
+    }
+    .landing-mobile{
+      background-color: $white;
+      padding: 8rem 0;
+      .primary-btn{
+        width: 100%;
+      }
+      .form-group{
+        position: relative;
+        .gps-icon{
+          position: absolute;
+          right: 0;
+          top: 0.55rem;
+        }
+      }
+    }
+  }
+}

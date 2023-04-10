@@ -1,0 +1,157 @@
+.section-wallet{
+    background-color:$white;
+    padding-bottom: 5rem;
+    h1{
+        margin: 4rem 0 2.6rem 0;
+        @include font($primary, "ProximaNova-Regular", 2.4rem, bold, 30px);
+    }
+    .total-points-wrapper{
+        background-color: $purple-E8D;
+        border-radius: 6px;
+        .heading{
+            display: flex;
+            border-bottom: 1px solid #DCC4F7;
+            padding: 2rem 2rem 2.2rem 2rem;
+            .right{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                align-items: center;
+                margin: 0 1.7rem 0 0;
+            }
+        }
+        .points-details{
+            margin: 1.5rem 0 0 0;
+            display: flex;
+            padding:0 2rem 1.8rem 2rem;
+            .one{
+                flex: 5;
+                border-right: 1px solid #DCC4F7;
+            }
+            .two{
+                flex: 5;
+                padding-left:2.6rem;
+            }
+            h3{
+                @include font($primary, "ProximaNova-bold", 2rem, bold, 30px);
+            }
+            p{
+                @include font($primary, "ProximaNova-Medium", 1.6rem, bold, 24px);
+            }
+        }
+        h2{
+            @include font($primary, "ProximaNova-Extrabold", 2.6rem, bold, 39px);
+        }
+        p{
+            @include font($primary, "ProximaNova-Regular", 1.6rem, bold, 19px);
+        }
+        .notes-wrapper{
+            background-color: rgba(173, 120, 237, 0.1);
+            text-align: center;
+            h6{
+                @include font($primary, "ProximaNova-Regular", 1.4rem, bold, 21px);
+                letter-spacing: -0.2px;
+                margin: 0;
+                opacity: 1;
+                padding: 0.7rem 0;
+            }
+        }
+    }
+    .refer-wrapper{
+        margin: 3.8rem 0 0 0;
+        padding: 5rem 4rem 4rem 4rem;
+        background-color: $blue-E9F;
+        text-align: center;
+        border-radius: 10px;
+        p{
+            @include font($primary, "ProximaNova-SemiBold", 1.6rem, bold, 22px)
+        }
+        h6{
+            @include font($primary, "ProximaNova-Bold", 2.4rem, bold, 30px);
+            margin:2rem 0;
+        }
+        .primary-btn{
+            padding: 1.2rem 4rem;
+        }
+    }
+
+    .transactopns-wrapper{
+        h2{
+            @include font($primary, "ProximaNova-Bold", 2rem, bold, 28px);
+            margin: 0 0 2.4rem 0;
+        }
+        hr{
+            margin: 2.8rem 0;
+        }
+        .transaction{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .left{
+                display: flex;
+                align-items: center;
+                .one{
+                   padding: 0 1.7rem 0 0;
+                }
+            }
+            h3{
+                @include font($primary, "ProximaNova-Bold", 1.8rem, bold, 28px);
+            }
+            p{
+                @include font($primary, "ProximaNova-Regular", 1.4rem, bold, 21px);
+                opacity: 0.6;
+            }
+            h5{
+                @include font($green-40B, "ProximaNova-Bold", 1.8rem, bold, 26px);
+            }
+            .red{
+                color: $red-FF3;
+            }
+            h6{
+                @include font($primary, "ProximaNova-SemiBold", 1.2rem, bold, 26px);
+                opacity: 0.38;
+            }
+        }
+    }
+}
+
+
+.refer-friend-modal{
+    text-align: center;
+    h2{
+        @include font($primary, "ProximaNova-SemiBold", 1.6rem, bold, 22px);
+        margin: 2rem 0;
+    }
+    h1{
+        @include font($primary, "ProximaNova-Bold", 2.4rem, bold, 30px);
+        margin: 0 0 1.4rem;
+    }
+    p{
+        @include font($primary, "ProximaNova-Regular", 1.4rem, bold, 21px);
+        opacity: 0.6;
+    }
+    .copy-wrapper{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 1.2rem 0.5rem;
+        border: dashed 2px #ABABAB;
+        border-radius: 4rem;
+        margin: 2.6rem auto;
+        width: 22.6rem;
+        h5{
+            @include font($primary, "ProximaNova-Regular", 1.4rem, bold, 21px);
+        }
+        h6{
+            @include font($blue-268, "ProximaNova-SemiBold", 1.4rem, bold, 21px);
+            cursor: pointer;
+        }
+    }
+    .social-media{
+        text-align: center;
+        margin: 2.2rem 0;
+        .whatsapp-icon{
+            margin: 0 1.6rem;
+        }
+    }
+}

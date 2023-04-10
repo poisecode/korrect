@@ -1,0 +1,128 @@
+.review-booking-section{
+  background-color: $white;
+  min-height: calc(100vh - 9rem);
+  .review-booking-wrapper{
+    padding-bottom: 10rem;
+  }
+  .booking-details{
+    margin-top: 4rem;
+    padding: 1rem 3rem 1rem 0;
+    .bike-image{
+      width: 100%;
+      height: 18rem;
+      object-fit: contain;
+    }
+    .bike-info{
+      position: relative;
+      .status{
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .back-icon{
+        margin-right: 2rem;
+        margin-bottom: 0.4rem;
+        cursor: pointer;
+      }
+      .info{
+        margin: 4.4rem 0 1rem;
+        div{
+          display: inline-block;
+          padding-left: 4rem;
+          h4{
+            padding: 0.5rem 0;
+          }
+        }
+        .bike-image{
+          vertical-align: top;
+          width: 14rem;
+          height: 10rem;
+          object-fit: cover;
+        }
+      }
+    }
+    .specifications-wrapper{
+      padding: 5rem 0 3rem;
+      .specification{
+        flex: 1;
+      }
+    }
+    .timing-info{
+      padding: 3rem 0;
+      .timeline{
+        margin-top: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        div{
+          width: 28%;
+          &:first-child{
+            width: 16%;
+          }
+        }
+      }
+    }
+    .address-details{
+      padding: 3rem 0;
+      .address{
+        padding: 2rem 5rem 2rem 0;
+        display: flex;
+        align-items: flex-start;
+        .location-icon{
+          margin-right: 1.5rem;
+          // margin-top: 0.4rem;
+        }
+        a{
+          display: block;
+          padding-top: 1.2rem;
+          text-decoration: underline;
+          &:hover{
+            color: initial;
+          }
+        }
+        .primary-btn{
+          &.ghost-round{
+            font-size: 1.4rem;
+            margin: 1.6rem 0;
+            padding: 1rem 1.2rem;
+            img{
+              margin-left: 0.6rem;
+            }
+          }
+        }
+      }
+    }
+    .timeline-wrapper{
+      padding: 3rem 0;
+      h2{
+        padding-bottom: 2.2rem;
+      }
+      .timeline{
+        position: relative;
+        img{
+          margin-bottom: 1.6rem;
+        }
+        h6{
+          padding: 0.7rem 0;
+        }
+        &::after {
+          content: "";
+          position: absolute;
+          height: 0.1rem;
+          width: 106%;
+          background-color: $secondary-6;
+          top: 1rem;
+          left: 2.1rem;
+        }
+        &.last::after{
+          display: none;
+        }
+        &.cancelled{
+          &::after{
+            background-color: $red-B00;
+          }
+        }
+      }
+    }
+  }
+}

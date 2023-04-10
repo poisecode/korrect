@@ -1,0 +1,60 @@
+.pickuplist-wrapper{
+  // margin: 1rem 0;
+  .pickuplist-header{
+    margin: 0rem 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .pickuplist-results{
+    .pickuplist{
+      cursor: pointer;
+      border: 1px solid rgba(13, 13, 13, 0.1);
+      padding: 2.6rem 3rem 3rem;
+      margin-bottom: 2rem;
+      border-radius: 6px;
+      position: relative;
+      display: flex;
+    align-items: center;
+      &.active{
+        border-color: $primary;
+        .tick-icon{
+          display: block;
+        }
+      }
+      .tick-icon{
+        display: none;
+        position: absolute;
+        right: -1.2rem;
+        top: -1rem;
+      }
+      .location-icon{
+        margin-right: 1.8rem;
+        vertical-align: bottom;
+      }
+      .info-wrapper{
+        // display: inline-block;
+        margin-right: 7rem;
+        .info{
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+
+        }
+        .bike-count{
+          background-color: $blue-EEF;
+          border-radius: 2.2rem;
+          border: 1px solid $blue-EEF;
+          padding: 0.1rem 1rem;
+          letter-spacing: -0.1px;
+        }
+      }
+      h6{
+        // float: right;
+        align-self: flex-start;
+        position: absolute;
+        right: 3rem;
+      }
+    }
+  }
+}

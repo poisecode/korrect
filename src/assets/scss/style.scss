@@ -1,0 +1,32 @@
+@import "common/variables";
+@import "common/mixins";
+@import "common/base";
+@import "common/navbar";
+@import "accounts/accounts";
+@import "accounts/profile";
+@import "bookings/select-pickup";
+@import "bookings/pickup-list";
+@import "wallet/wallet";
+@import "bookings/select-bike";
+@import "bookings/review-booking";
+@import "bookings/bookings-common";
+@import "common/pagination";
+@import "myBookings/myBookings";
+@import "bookings/booking-details";
+@import "auth/auth";
+@import "onboarding/onboarding";
+@import "common/board-card";
+@import "settings/settings";
+@import "settings/workspace-settings";
+@import "feedback/feedback";
+@import "public-feedback/public-feedback";
+@import "feedbackStage/feedbackStage";
+
+.modal-dialog {
+  align-items: end;
+  justify-content: end;
+}
+.modal-content {
+  width: 50vw;
+  height: 100%;
+}

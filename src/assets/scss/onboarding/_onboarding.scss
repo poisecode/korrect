@@ -1,0 +1,63 @@
+.onboarding,
+.common-section {
+	h1 {
+		@include font($primary-text, "Inter-Regular", 2.4rem, 600);
+		margin: 45px 0 10px 0;
+	}
+	h2 {
+		@include font($black-06, "Inter-Regular", 1.4rem, 600);
+		margin: 0 0 35px 0;
+	}
+	h3 {
+		@include font(#84919a, "Inter-Regular", 1.2rem, 600, 24px);
+		margin-bottom: 16px;
+		text-transform: uppercase;
+	}
+	h4 {
+		@include font($primary-text, "Inter-SemiBold", 1.4rem, 600, 24px);
+		margin-bottom: 4px;
+	}
+
+	.form-wrapper {
+		input {
+			@extend .br-8;
+		}
+	}
+	.buttons-wrapper {
+		text-align: right;
+		.btn-secondary {
+			margin-right: 1rem;
+		}
+	}
+}
+
+.info-strip {
+	@extend .br-8;
+	background-color: $secondary-brand;
+	border: 1px solid rgba(251, 238, 202, 0.5);
+	padding: 10px;
+	margin-bottom: 35px;
+	p {
+		@include font($primary-text, "Inter-Regular", 1.4rem, 400);
+	}
+}
+
+// BOARD PAGE
+.board-page {
+	.card {
+		min-height: 13rem;
+		.count {
+			position: absolute;
+			bottom: 15px;
+		}
+	}
+	.options-wrapper {
+		margin-bottom: 2rem;
+	}
+	.boards-empty-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}

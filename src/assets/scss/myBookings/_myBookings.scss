@@ -1,0 +1,110 @@
+.section-my-bookings{
+    background-color:$white;
+    min-height: calc(100vh - 9rem);
+    .empty-state-wrapper{
+        margin: 12rem 0 0 0;
+        .primary-btn{
+            margin: 3rem 0;
+        }
+    }
+    h1{
+        margin: 4rem 0 2.6rem 0;
+        @include font($primary, "ProximaNova-Regular", 2.4rem, bold, 30px);
+    }
+    .bookings-card-wrapper{
+        display: flex;
+        border: 1px solid rgba(13, 13, 13, 0.1);
+        padding: 4.7rem 5rem 4.7rem 8rem;
+        margin: 0 0 3rem 0;
+        .bike-img{
+          width: 20rem;
+          height: 18rem;
+          .bike-image{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+          }
+        }
+        .booking-details{
+            flex: 2;
+            padding-left: 8rem;
+            // .booking-status{
+            //     background-color: rgba(204, 255, 224, 1);
+            //     color: $green-009;
+            //     &.red{
+            //         background-color: #FFCCD5;
+            //         color: #B00020;
+            //     }
+            //     &.yellow{
+            //         background-color: #FCF0CF;
+            //         color: #C0900C;
+            //     }
+            //     //padding: 0.2rem 1rem;
+            // }
+            .header{
+                display: flex;
+                justify-content: space-between;
+                .location-icon{
+                    width: 1.1rem
+                }
+                p{
+                    @include font($primary, "ProximaNova-Regular", 1.4rem, normal, 21px);
+                }
+                h6{
+                    @include font($primary, "ProximaNova-bold", 1.8rem, bold, 26px);
+                    margin: 0.6rem 0;
+                }
+                h3{
+                    @include font($primary, "ProximaNova-Regular", 1.6rem, bold, 24px);
+                    opacity: 0.6;
+                }
+                span{
+                  font-family: "ProximaNova-Medium";
+                  line-height: 22px;
+                  size: 1.4rem;
+                  // @include font($primary, "ProximaNova-Medium", 1.4rem, normal, 22px);
+                  padding: 0.4rem 1rem;
+                  margin-left: 1.2rem;
+                  border-radius: 4px;
+                }
+                h5{
+                    @include font($primary, "ProximaNova-bold", 2.4rem, bold, 36px);
+                }
+            }
+            .footer{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .bike-info{
+                    display: flex;
+                    h4{
+                        @include font($primary, "ProximaNova-Regular", 1.6rem, normal, 26px);
+                    }
+                    h5{
+                        @include font($primary, "ProximaNova-bold", 1.8rem, bold, 24px);
+                        padding-left: 0.5rem;
+                    }
+                    h6{
+                        @include font($primary, "ProximaNova-Medium", 1.4rem, bold, 26px);
+                        padding-left: 2.8rem;
+                    }
+                    .dot{
+                        width: 0.8rem;
+                        height: 0.8rem;
+                        border-radius: 50%;
+                        background: #0D0D0D;
+                        opacity: 0.1;
+                        display: inline-block;
+                        margin-right: 1.2rem;
+                    }
+                }
+                .ghost-round{
+                    padding: 0.9rem 1.6rem;
+                    margin: 0;
+                    font-size: 1.2rem;
+                    letter-spacing:0.1px;
+                }
+            }
+        }
+    }
+}

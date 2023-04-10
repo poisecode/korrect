@@ -1,0 +1,21 @@
+<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group">
+<g id="Rectangle" filter="url(#filter0_d_713_10001)">
+<rect x="4" y="4" width="36" height="36" rx="18" fill="#1877F2"/>
+</g>
+<g id="logo-fb-simple">
+<path id="White_1_" d="M19.9984 29.7147L19.9738 22.7017H16.8569V19.8965H19.9738V18.1433C19.9738 15.5405 21.7647 14.2861 24.3446 14.2861C25.5804 14.2861 26.6424 14.3689 26.952 14.4059V17.126L25.1627 17.1268C23.7596 17.1268 23.488 17.7268 23.488 18.6073V19.8965H27.5712L26.0128 22.7017H23.488V29.7147H19.9984Z" fill="white"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_713_10001" x="0" y="0" width="44" height="44" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.101808 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_713_10001"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_713_10001" result="shape"/>
+</filter>
+</defs>
+</svg>

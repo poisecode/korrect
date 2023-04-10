@@ -1,0 +1,35 @@
+.select-bike-section{
+  background-color: $white;
+  min-height: calc(100vh - 9rem);
+
+  .bike-list-wrapper{
+    .bike-info-wrapper{
+      padding: 6rem 0;
+      border-bottom: 4px solid $secondary-5;
+      .bike-image{
+        margin: 0 2rem;
+        padding: 1.5rem;
+        background-color: $grey-FAF;
+        img{
+          width: 100%;
+        }
+
+      }
+      .bike-info{
+        margin: 0 2rem 0 1rem;
+
+      }
+      .rates-wrapper{
+        text-align: right;
+        h3{
+          padding: 0.5rem 0 0;
+        }
+        .primary-btn{
+          margin-top: 2rem;
+          width: 100%;
+          // padding: 1.3rem 5.3rem;
+        }
+      }
+    }
+  }
+}

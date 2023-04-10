@@ -1,0 +1,40 @@
+.select-pickup-section{
+  background-color: $white;
+  min-height: calc(100vh - 9rem);
+  .search-wrapper{
+    background-color: $blue-E9F;
+    .search-div{
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      padding: 2.7rem 0;
+      .form-group{
+        margin-bottom: 0rem;
+        .form-control{
+          background: transparent;
+          &.search-area{
+            // padding-right: 14rem;
+            width: 35rem;
+          }
+        }
+        .react-datepicker-wrapper{
+          input{
+            background: transparent;
+            padding-right: 5rem;
+          }
+        }
+        input{
+          border-color: $blue-9EC;
+        }
+      }
+      .ghost{
+        margin: 0;
+        padding: 1.4rem 3.4rem;
+      }
+    }
+  }
+  .search-results-wrapper{
+    margin-top: 3rem;
+    padding-bottom: 15rem;
+  }
+}

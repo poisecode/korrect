@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Switch, BrowserRouter } from "react-router-dom";
+import routes from "./routes";
+// import { ToastContainer } from "react-toastify";
+// import Login from "./app/accounts/Login";
+// import Signup from "./app/accounts/Signup";
+// import VerifyOtp from "./app/accounts/VerifyOtp";
+// import UserDetails from "./app/accounts/UserDetails";
 
 function App() {
+  // let history = useHistory();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Switch>
+        {routes.map((prop, key) => {
+          return (
+            <prop.type
+              exact
+              path={prop.path}
+              key={key}
+              component={prop.component}
+            />
+          );
+        })}
+      </Switch>
+      {/* <ToastContainer
+        toastClassName="custom-toastify"
+        position="top-right"
+        hideProgressBar
+      /> */}
+      {/* <Login history={history} />
+      <VerifyOtp history={history} />
+      <Signup />
+      <UserDetails history={history} /> */}
+    </BrowserRouter>
   );
 }
 

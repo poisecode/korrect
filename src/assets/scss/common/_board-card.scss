@@ -1,0 +1,127 @@
+.card {
+	@extend .br-8;
+	padding: 16px;
+	border: 1px solid $gray-e4;
+	position: relative;
+	margin: 0;
+
+	h4 {
+		@include font($primary-text, "Inter-SemiBold", 1.4rem, 600, 21px);
+		margin-bottom: 4px;
+	}
+	h5 {
+		@include font($black-06, "Inter-Regular", 1.2rem, 400, 18px);
+	}
+	.count {
+		@include font($primary-brand, "Inter-SemiBold", 1.2rem, 600);
+		@extend .br-30;
+		margin-top: 20px;
+		display: inline-block;
+		padding: 7px 10px;
+		background-color: $primary-brand__light;
+		.dot {
+			margin-right: .6rem;
+			vertical-align: middle;
+			font-size: .6rem;
+		}
+	}
+	.dots {
+		position: absolute;
+		top: 14px;
+		right: 14px;
+		cursor: pointer;
+		height: 30px;
+		padding: 5px;
+
+		&:hover {
+			background-color: #0000000a;
+			border-radius: 50%;
+		}
+
+	}
+	.board-menu {
+		// position: relative;
+  		// display: inline-block;
+		  .dropdown-content {
+			display: none;
+			top: 45px;
+			right: 16px;
+			position: absolute;
+			background-color: #ffffff;
+			min-width: 130px;
+			z-index: 1;
+			background: #FFFFFF;
+			border: 1px solid #F2F4F7;
+			box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+			border-radius: 8px;
+		  
+			.delete {
+			  color: #EC6D62;
+		  
+			}
+		  }
+		  
+		  /* Links inside the dropdown */
+		  .dropdown-content span {
+			color: #344054;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+			@include font(#344054, "Inter-Regular", 1.2rem, 400);
+		  }
+		  
+		  /* Change color of dropdown links on hover */
+		  .dropdown-content span:hover {
+			background-color: #0000000a;
+		  }
+		  
+		  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+		  .show {
+			display:block;
+		  }
+	}
+
+	// SELECTED TICK
+	.selected-tick {
+		@extend .br-30;
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		background-color: $primary-brand;
+		width: 20px;
+		height: 20px;
+		position: absolute;
+		top: -10px;
+		right: -10px;
+	}
+
+	&.selected-card {
+		border-color: $primary-text;
+	}
+	&:hover {
+		cursor: pointer;
+		border-color: $primary-text;
+	}
+}
+.all-posts {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FBEECA;
+	border: 1px solid #FBEECA;
+	.board-title {
+		display: flex;
+		gap: 6px;
+		margin-bottom: 4px;
+		h4 {
+			// @include font(#000, "Inter-Black", 1.2rem, 600);
+			text-decoration: underline;
+			margin-bottom: 0px;
+		}
+	}
+	.count {
+		background-color: rgba(0, 0, 0, 0.1);
+		@include font(#000, "Inter-Medium", 1.2rem, 400);
+		bottom: 2.4rem !important;
+	}
+}
