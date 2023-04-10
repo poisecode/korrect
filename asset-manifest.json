@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/korrect/static/css/main.b32f5987.css",
+    "main.js": "/korrect/static/js/main.ecda87eb.js",
+    "static/js/787.98794c53.chunk.js": "/korrect/static/js/787.98794c53.chunk.js",
+    "static/media/Inter-ExtraBold.ttf": "/korrect/static/media/Inter-ExtraBold.ff90249a320fd94ec508.ttf",
+    "static/media/Inter-Black.ttf": "/korrect/static/media/Inter-Black.cebeacf9cf3be04078de.ttf",
+    "static/media/Inter-Bold.ttf": "/korrect/static/media/Inter-Bold.1eca2d329458b92342aa.ttf",
+    "static/media/Inter-SemiBold.ttf": "/korrect/static/media/Inter-SemiBold.a41b925faf940d267b62.ttf",
+    "static/media/Inter-Medium.ttf": "/korrect/static/media/Inter-Medium.4ebf1acf62f447ea2f0d.ttf",
+    "static/media/Inter-Regular.ttf": "/korrect/static/media/Inter-Regular.a3e5baa244e35d0f891d.ttf",
+    "static/media/glyphicons-halflings-regular.svg": "/korrect/static/media/glyphicons-halflings-regular.060b2710bdbbe3dfe48b.svg",
+    "static/media/discord.png": "/korrect/static/media/discord.5bc829e247190ba2cf8a.png",
+    "static/media/glyphicons-halflings-regular.ttf": "/korrect/static/media/glyphicons-halflings-regular.4692b9ec53fd5972caa2.ttf",
+    "static/media/glyphicons-halflings-regular.woff": "/korrect/static/media/glyphicons-halflings-regular.82b1212e45a2bc35dd73.woff",
+    "static/media/glyphicons-halflings-regular.eot": "/korrect/static/media/glyphicons-halflings-regular.5be1347c682810f199c7.eot",
+    "static/media/glyphicons-halflings-regular.woff2": "/korrect/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
+    "static/media/korrect-black-logo.svg": "/korrect/static/media/korrect-black-logo.1450d7ece81ef2e1803d3124384613a6.svg",
+    "static/media/upload.svg": "/korrect/static/media/upload.58746b0bf9399cf08a78324a180754a5.svg",
+    "static/media/arrowup-icon.svg": "/korrect/static/media/arrowup-icon.a3f55e5c9536bbc925d95155d388f7f8.svg",
+    "static/media/chat-icon.svg": "/korrect/static/media/chat-icon.153e4423d9185601c2b0359b54d5dd72.svg",
+    "static/media/delete.svg": "/korrect/static/media/delete.2e17e7012beb97be17e4beceac6f5491.svg",
+    "index.html": "/korrect/index.html",
+    "static/media/checkbox-selected.svg": "/korrect/static/media/checkbox-selected.e941b821422a4525acf8d5c187f8d339.svg",
+    "static/media/close.svg": "/korrect/static/media/close.0b1a8ed0f1936e1a09130e2f59955f01.svg",
+    "static/media/checkbox-unselected.svg": "/korrect/static/media/checkbox-unselected.42e620d7d260d5afd1eff455fb1b7092.svg",
+    "main.b32f5987.css.map": "/korrect/static/css/main.b32f5987.css.map",
+    "main.ecda87eb.js.map": "/korrect/static/js/main.ecda87eb.js.map",
+    "787.98794c53.chunk.js.map": "/korrect/static/js/787.98794c53.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b32f5987.css",
+    "static/js/main.ecda87eb.js"
+  ]
+}
